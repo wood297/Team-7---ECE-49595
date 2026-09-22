@@ -1,0 +1,84 @@
+{
+  "version": 2,
+  "replica_id": "Charlie",
+  "clock": 9,
+  "payload": {
+    "activities": {
+      "0aaa6cc38ad740a1bd436c7525be82cd": {
+        "notes": {
+          "value": "",
+          "stamp": [
+            3,
+            "Alice"
+          ]
+        },
+        "time": {
+          "value": "19:00",
+          "stamp": [
+            2,
+            "Alice"
+          ]
+        },
+        "title": {
+          "value": "Dinner",
+          "stamp": [
+            1,
+            "Alice"
+          ]
+        }
+      },
+      "bad216c96d434070a2757041a2465cbb": {
+        "notes": {
+          "value": "",
+          "stamp": [
+            9,
+            "Charlie"
+          ]
+        },
+        "time": {
+          "value": "21:00",
+          "stamp": [
+            8,
+            "Charlie"
+          ]
+        },
+        "title": {
+          "value": "Night Walk",
+          "stamp": [
+            7,
+            "Charlie"
+          ]
+        }
+      },
+      "d33b2d728f164c679b1af7886ad5f374": {
+        "notes": {
+          "value": "",
+          "stamp": [
+            6,
+            "Alice"
+          ]
+        },
+        "time": {
+          "value": "16:00",
+          "stamp": [
+            5,
+            "Alice"
+          ]
+        },
+        "title": {
+          "value": "Museum Tour",
+          "stamp": [
+            4,
+            "Alice"
+          ]
+        }
+      }
+    },
+    "votes": {
+      "0aaa6cc38ad740a1bd436c7525be82cd": {},
+      "bad216c96d434070a2757041a2465cbb": {},
+      "d33b2d728f164c679b1af7886ad5f374": {}
+    },
+    "deleted": []
+  }
+}

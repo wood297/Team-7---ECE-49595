@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "replica_id": "Charlie",
+  "clock": 4,
+  "payload": {
+    "activities": {
+      "1182a633e3c641ccb0c23b9e7e7bd789": {
+        "notes": {
+          "value": "",
+          "stamp": [
+            3,
+            "Alice"
+          ]
+        },
+        "time": {
+          "value": "12:00",
+          "stamp": [
+            2,
+            "Alice"
+          ]
+        },
+        "title": {
+          "value": "Lunch",
+          "stamp": [
+            1,
+            "Alice"
+          ]
+        }
+      }
+    },
+    "votes": {
+      "1182a633e3c641ccb0c23b9e7e7bd789": {
+        "Charlie": {
+          "value": "up",
+          "stamp": [
+            4,
+            "Charlie"
+          ]
+        }
+      }
+    },
+    "deleted": []
+  }
+}

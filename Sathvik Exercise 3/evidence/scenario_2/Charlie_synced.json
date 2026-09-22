@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "replica_id": "Charlie",
+  "clock": 5,
+  "payload": {
+    "activities": {
+      "1182a633e3c641ccb0c23b9e7e7bd789": {
+        "notes": {
+          "value": "",
+          "stamp": [
+            3,
+            "Alice"
+          ]
+        },
+        "time": {
+          "value": "12:00",
+          "stamp": [
+            2,
+            "Alice"
+          ]
+        },
+        "title": {
+          "value": "Taco Bell",
+          "stamp": [
+            4,
+            "Alice"
+          ]
+        }
+      }
+    },
+    "votes": {
+      "1182a633e3c641ccb0c23b9e7e7bd789": {
+        "Alice": {
+          "value": "up",
+          "stamp": [
+            5,
+            "Alice"
+          ]
+        },
+        "Bob": {
+          "value": "down",
+          "stamp": [
+            4,
+            "Bob"
+          ]
+        },
+        "Charlie": {
+          "value": "up",
+          "stamp": [
+            4,
+            "Charlie"
+          ]
+        }
+      }
+    },
+    "deleted": []
+  }
+}

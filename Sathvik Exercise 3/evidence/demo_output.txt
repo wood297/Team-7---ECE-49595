@@ -1,0 +1,67 @@
+SCENARIO 1: DINNER EDITS, NIGHT WALK, AND MUSEUM DELETION
+
+SHARED START
+  Alice
+    16:00 | Museum Tour    | up=0 down=0 score=+0
+    19:00 | Dinner         | up=0 down=0 score=+0
+  Bob
+    16:00 | Museum Tour    | up=0 down=0 score=+0
+    19:00 | Dinner         | up=0 down=0 score=+0
+  Charlie
+    16:00 | Museum Tour    | up=0 down=0 score=+0
+    19:00 | Dinner         | up=0 down=0 score=+0
+
+OFFLINE COPIES
+  Alice
+    19:30 | Dinner         | up=0 down=0 score=+0
+  Bob
+    16:00 | Museum Tour    | up=0 down=0 score=+0
+    19:00 | Dinner         | up=0 down=0 score=+0
+      Notes: Vegetarian options available
+  Charlie
+    16:00 | Museum Tour    | up=0 down=0 score=+0
+    19:00 | Dinner         | up=0 down=0 score=+0
+    21:00 | Night Walk     | up=0 down=0 score=+0
+
+RECONNECTED: ALL COPIES AGREE
+  Alice
+    19:30 | Dinner         | up=0 down=0 score=+0
+      Notes: Vegetarian options available
+    21:00 | Night Walk     | up=0 down=0 score=+0
+  Bob
+    19:30 | Dinner         | up=0 down=0 score=+0
+      Notes: Vegetarian options available
+    21:00 | Night Walk     | up=0 down=0 score=+0
+  Charlie
+    19:30 | Dinner         | up=0 down=0 score=+0
+      Notes: Vegetarian options available
+    21:00 | Night Walk     | up=0 down=0 score=+0
+PASS: Dinner at 7:30 PM keeps Bob's notes; Night Walk survives; Museum Tour stays deleted.
+
+SCENARIO 2: LUNCH BECOMES TACO BELL WITH UPVOTES AND DOWNVOTES
+
+SHARED START
+  Alice
+    12:00 | Lunch          | up=0 down=0 score=+0
+  Bob
+    12:00 | Lunch          | up=0 down=0 score=+0
+  Charlie
+    12:00 | Lunch          | up=0 down=0 score=+0
+
+OFFLINE COPIES
+  Alice
+    12:00 | Taco Bell      | up=1 down=0 score=+1
+  Bob
+    12:00 | Lunch          | up=0 down=1 score=-1
+  Charlie
+    12:00 | Lunch          | up=1 down=0 score=+1
+
+RECONNECTED: ALL COPIES AGREE
+  Alice
+    12:00 | Taco Bell      | up=2 down=1 score=+1
+  Bob
+    12:00 | Taco Bell      | up=2 down=1 score=+1
+  Charlie
+    12:00 | Taco Bell      | up=2 down=1 score=+1
+PASS: Taco Bell is on the schedule: 2 upvotes, 1 downvote, net score +1.
+Votes follow the activity ID across its rename; they do not approve or reject title edits.

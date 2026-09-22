@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "replica_id": "Bob",
+  "clock": 7,
+  "payload": {
+    "activities": {
+      "0aaa6cc38ad740a1bd436c7525be82cd": {
+        "notes": {
+          "value": "Vegetarian options available",
+          "stamp": [
+            7,
+            "Bob"
+          ]
+        },
+        "time": {
+          "value": "19:00",
+          "stamp": [
+            2,
+            "Alice"
+          ]
+        },
+        "title": {
+          "value": "Dinner",
+          "stamp": [
+            1,
+            "Alice"
+          ]
+        }
+      },
+      "d33b2d728f164c679b1af7886ad5f374": {
+        "notes": {
+          "value": "",
+          "stamp": [
+            6,
+            "Alice"
+          ]
+        },
+        "time": {
+          "value": "16:00",
+          "stamp": [
+            5,
+            "Alice"
+          ]
+        },
+        "title": {
+          "value": "Museum Tour",
+          "stamp": [
+            4,
+            "Alice"
+          ]
+        }
+      }
+    },
+    "votes": {
+      "0aaa6cc38ad740a1bd436c7525be82cd": {},
+      "d33b2d728f164c679b1af7886ad5f374": {}
+    },
+    "deleted": []
+  }
+}
