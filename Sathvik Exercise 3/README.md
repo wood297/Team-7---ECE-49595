@@ -24,8 +24,9 @@ Synchronization is simulated locally. These files do not connect real devices ov
 
 **Trip Scenario 1:** Alice and Bob both edit an itinerary event ("Dinner at 7:00 PM") while offline. Alice changes the time to 7:30 PM. Bob updates the notes to "Vegetarian options available". Concurrently, Charlie adds a new activity "Night Walk", while Alice deletes "Museum Tour". Upon reconnection, the two distinct field edits merge seamlessly without overwriting each other, the new activity persists, and the deleted activity stays deleted.
 
-**Trip Scenario 2:** Alice changes "Lunch" to "Taco Bell" and upvotes it, Bob downvotes it, and Charlie upvotes. The shcedule is updated with Taco bell
-From this folder, run:
+**Trip Scenario 2:** Alice changes "Lunch" to "Taco Bell" and upvotes it, Bob downvotes it, and Charlie upvotes. The schedule is updated with Taco bell
+
+To run the demo with both these scenarios, run:
 
 ```powershell
 python demo.py
